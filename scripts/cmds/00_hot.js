@@ -24,7 +24,7 @@ module.exports = {
 	config: {
 		name: 'hot',
 		version: '1.0',
-		author: 'Kshitiz',
+		author: 'BaYjiD',
 		role: 0,
 		shortDescription: {
 			en: 'Manage videos'
