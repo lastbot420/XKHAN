@@ -40,17 +40,17 @@ module.exports = {
 
 		message.reply({
 			body: `💫《 ⩸__𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__⩸ 》💫
-\🤖彡𝐵𝑜𝑡 𝑁𝑎𝑚𝑒 : ⩸__${global.GoatBot.config.nickNameBot}__⩸
-\👾彡𝐵𝑜𝑡 𝑆𝑦𝑠𝑡𝑒𝑚 𝑃𝑟𝑒𝑓𝑖𝑥 : ${global.GoatBot.config.prefix}
-\💙彡𝑂𝑤𝑛𝑒𝑟 𝑁𝑎𝑚𝑒 : ${authorName}
-\📝彡𝐴𝑔𝑒  : ${ownAge}
-\💕彡𝑅𝑒𝑙𝑎𝑡𝑖𝑜𝑛𝑆ℎ𝑖𝑝: ${Status}
-\🌐彡𝑊𝑝 : ${authorNumber}
-\🌍彡𝐹𝑎𝑐𝑒𝑏𝑜𝑜𝑘 𝐿𝑖𝑛𝑘 : ${authorFB}
-\🗓彡𝐷𝑎𝑡𝑒 : ${date}
-\⏰彡𝑁𝑜𝑤 𝑇𝑖𝑚𝑒 : ${time}
-\🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 :⩸__${messenger}__⩸
-\📛彡𝐵𝑜𝑡 𝐼𝑠 𝑅𝑢𝑛𝑛𝑖𝑛𝑔 𝐹𝑜𝑟 : ${uptimeString}
+\🤖BOT NAME : ⩸__${global.GoatBot.config.nickNameBot}__⩸
+\👾BOT SYSTEM PREFIX : ${global.GoatBot.config.prefix}
+\💙 OWNER NAME: ${authorName}
+\📝AGE  : ${ownAge}
+\💕RELATIONSHIP: ${Status}
+\🌐WP : ${authorNumber}
+\🌍 FACEBOOK LINK : ${authorFB}
+\🗓DATE : ${date}
+\⏰NOW TIME : ${time}
+\🔰ANY HELP CONTACT :⩸__${messenger}__⩸
+\📛BOT I'S RUNNING FOR : ${uptimeString}
     𝑻𝒈: https://t.me/MOHAMMADBAYJID
     𝑰𝒏𝒔𝒕𝒂: https://www.instagram.com/mr_bayjid120?
     𝑪𝒂𝒑𝑪𝒖𝒕: copy_bayjid
