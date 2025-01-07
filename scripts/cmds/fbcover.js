@@ -30,12 +30,12 @@ module.exports = {
       const email = msg[4];
       const color = msg[5] ? msg[5].trim() : '';
 
-      await message.reply('Processing your cover, senpai....❤️');
+      await message.reply('Processing your cover, please wait....🩵');
 
       const img = `https://www.nguyenmanh.name.vn/api/fbcover1?name=${name}&uid=${event.senderID}&address=${address}&email=${email}&subname=${subname}&sdt=${phone}&color=${color}&apikey=sr7dxQss`;
 
       const form = {
-        body: '「 Your cover senpai😻❤️ 」',
+        body: '「 Your cover 🩷😽 」',
         attachment: []
       };
 
