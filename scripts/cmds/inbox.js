@@ -29,7 +29,7 @@ module.exports = {
     try {
       const query = encodeURIComponent(args.join(' '));
       message.reply("✅ SUCCESSFULLY SEND MSG\n\n🔰 PLEASE CK YOUR INBOX OR MSG REQUEST BOX", event.threadID);
-      api.sendMessage("✅ SUCCESSFULLY ALLOW\n🔰 NOW YOU CAN USE🫠 HI I'M BAYJID BOT🫠 HERE", event.senderID);
+      api.sendMessage("✅ SUCCESSFULLY ALLOW\n🔰 ♡ᥫᩣ𝐍𝐎𝐖 𝐘𝐎𝐔 𝐂𝐀𝐍 𝐔𝐒𝐄 𝐇𝐈 𝐈'𝐌 𝐓𝐀𝐌𝐈𝐌 BOT❥ 𝐇𝐄𝐑𝐄ღ༉", event.senderID);
     } catch (error) {
       console.error("Error bro: " + error);
     }
